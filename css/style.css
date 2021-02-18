@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+    Main header
+*/
+
+.main-header{
+    width: 100%;
+    background-color: #AFBA39;
+    position: fixed;
+    top: 0;
+}
+
+.main-header-logo{
+    display: inline-block;
+    height: 58px;
+    width: 34,29px;
+    margin-left: 11px;
+}
+
+.main-header-titler{
+    color: white;
+    display: inline;
+    position: absolute;
+    left: 41%;
+    top: 15px;
+    font-size: 24px;
+}
+
+/* 
+    Main container
+*/
+
+.main-container{
+    margin-top: 125px;
+}
+
+/* 
+    Section chamada itens \/
+*/
+
+/* 
+    Informações da chamada {Titulo, Requerente, Status, Descrição}
+*/
+
+.container-chamadas > ul > li{
+    margin-bottom: 20px;
+}
+
+.chamada-itens{
+    display: inline-block;
+    height: 56px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+}
+
+.container-li-info{
+    font-size: 14px;
+    display: inline-block;
+    width: 400px;
+    margin-left: 20px;
+}
+
+.container-li-info > ul{
+    list-style: none;
+}
+
+.container-li-info > ul > li{
+    display: inline-block;
+}
+
+.chamada-li-title{
+    display: inline-block;
+    margin-right: 200px;
+    color: #262626;
+}
+
+.chamada-li-requerente{
+    margin-right: 10px;
+    color: #262626;
+}
+
+.chamada-li-status{
+    margin-right: 20px;
+    color: #262626;
+}
+
+.container-li-info > p{
+    margin-top: 5px;
+    color: #262626;
+}
+
+/* 
+    Botões da chamada
+*/
+
+.chamada-btns{
+    display: inline-block;
+    width: 130px;
+    margin: auto 0;
+}
+
+.chamada-btns > ul{
+    list-style: none;
+}
+
+.chamada-btns > ul > li{
+    display: inline-block;
+}
+
+.chamada-btn{
+    margin: 5px 5px;
+}
+
+/* 
+    Section formulário de chamado
+*/
+
+.container-form{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 521px;
+    padding-left: 40px;
+}
+
+.container-form > form{
+    width: 100%;
+    height: 100%;
+}
+
+.container-form > form > h1{
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.container-form > form > hr{
+    width: 470px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #E5E5E5;
+}
+
+.input-form{
+    display: block;
+    width: 452px;
+    height: 42px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    padding: 0 10px 5px 10px;
+}
+
+.container-form > form > textarea{
+    resize: none;
+    margin-bottom: 20px;
+    height: 167px;
+}
+
+.btn-default{
+    display: inline-block;
+    width: 452px;
+    
+    background-color: #AFBA39;
+    font-size: large;
+    color: white;
+    padding: 14px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
